@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98C10895-982D-4B38-A5C9-C0B2552FF3F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nature.MetaData</RootNamespace>
+    <AssemblyName>Nature.MetaData</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\_dll\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\..\_dll\bin\Nature.MetaData.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Nature.MetaData.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlExtend\TextBoxMulExtend.cs" />
+    <Compile Include="ControlExtend\TextBoxPassExtend.cs" />
+    <Compile Include="ControlExtend\TextBoxTimeExtend.cs" />
+    <Compile Include="ControlExtend\DropDownListExpand.cs" />
+    <Compile Include="ControlExtend\GroupListExpand.cs" />
+    <Compile Include="Entity\ColumnMeta.cs" />
+    <Compile Include="Entity\ColumnWebMeta.cs" />
+    <Compile Include="Entity\MetaControl\ButtonListMeta.cs" />
+    <Compile Include="Enum\DeleteDataType.cs" />
+    <Compile Include="Enum\ButonType.cs" />
+    <Compile Include="ControlExpand.cs" />
+    <Compile Include="ControlExtend\BaseListExpand.cs" />
+    <Compile Include="ControlExtend\BaseTextBoxExtend.cs" />
+    <Compile Include="ControlExtend\TextChooseExtend.cs" />
+    <Compile Include="ControlExtend\TextUploadExtend.cs" />
+    <Compile Include="ControlExtend\UniteListExtend.cs" />
+    <Compile Include="Entity\WebPage\ModuleEntity.cs" />
+    <Compile Include="Entity\WebPage\PageEntity.cs" />
+    <Compile Include="Enum\PageViewType.cs" />
+    <Compile Include="Enum\SQLType.cs" />
+    <Compile Include="Enum\PageTurnType.cs" />
+    <Compile Include="Enum\ControlType.cs" />
+    <Compile Include="Enum\FillItemType.cs" />
+    <Compile Include="Enum\FileUploadKind.cs" />
+    <Compile Include="Enum\FileNameKind.cs" />
+    <Compile Include="ManagerMeta\ManagerModule.cs" />
+    <Compile Include="ManagerMeta\ManagerTableColumnMeta.cs" />
+    <Compile Include="Manager\ManagerLogDataChange.cs" />
+    <Compile Include="Manager\ManagerLogOperate.cs" />
+    <Compile Include="Manager\ManagerData.cs" />
+    <Compile Include="ManagerMeta\ManagerFindMeta.cs" />
+    <Compile Include="ManagerMeta\ManagerFormMeta.cs" />
+    <Compile Include="ManagerMeta\ManagerPageViewMeta.cs" />
+    <Compile Include="ManagerMeta\ManagerGridMeta.cs" />
+    <Compile Include="ManagerMeta\ManagerMeta.cs" />
+    <Compile Include="Manager\SQLFactory.cs" />
+    <Compile Include="Entity\MetaControl\FindColumnMeta.cs" />
+    <Compile Include="Entity\MetaControl\FormColumnMeta.cs" />
+    <Compile Include="Entity\MetaControl\GridColumnMeta.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\MetaControl\ModColumnMeta.cs" />
+    <Compile Include="Entity\QuickPager\PageTurnMeta.cs" />
+    <Compile Include="ManagerMeta\ManagerButtonListMeta.cs" />
+    <Compile Include="Manager\ManagerFind.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entity\WebPage\PageViewMeta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlExtend\控件扩展信息.cd" />
+    <None Include="Entity\字段元数据.cd" />
+    <None Include="ManagerMeta\描述信息的管理.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nature.Common\Nature.Common.csproj">
+      <Project>{55DC3025-75A9-441C-9D75-7652E46900F5}</Project>
+      <Name>Nature.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nature.DataAccessLibrary\Nature.DataAccessLibrary.csproj">
+      <Project>{75BC6E2B-B380-4CFB-BAF2-BA7C568E1778}</Project>
+      <Name>Nature.DataAccessLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

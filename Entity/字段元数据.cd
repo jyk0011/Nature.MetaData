@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="添加、修改的表单用的信息">
+    <Position X="9.666" Y="14.258" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="查询条件的表单用的信息">
+    <Position X="7.109" Y="14.093" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Nature.MetaData.Entity.MetaControl.FindColumnMeta">
+    <Position X="7" Y="11.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAgAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Entity\MetaControl\FindColumnMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.MetaControl.FormColumnMeta">
+    <Position X="7.5" Y="8" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIEBAAAAICAgBAAAAAQAAEAAAABEAAAAQAAAAAAAEAQ=</HashCode>
+      <FileName>Entity\MetaControl\FormColumnMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.MetaControl.GridColumnMeta">
+    <Position X="10" Y="8" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAEABAAAAAAAAAAAAAAAhAAAAAAAAQAAAAgEA=</HashCode>
+      <FileName>Entity\MetaControl\GridColumnMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.MetaControl.ModColumnMeta">
+    <Position X="9.5" Y="11.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAAAAAAAAAAAAAgCAAAAAAAAACAIAAAAAAAA=</HashCode>
+      <FileName>Entity\MetaControl\ModColumnMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.WebPage.PageViewMeta">
+    <Position X="4.25" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AKUQAIAIMIAAKEGBAgEAAAAAQAAAgAAAaAAAIAAAAAI=</HashCode>
+      <FileName>Entity\WebPage\PageViewMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.QuickPager.PageTurnMeta">
+    <Position X="4.25" Y="5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BCAAAAAAAQQAEAAgAgAAIAIAAAQBAAgAAAAAEAAMAAA=</HashCode>
+      <FileName>Entity\QuickPager\PageTurnMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.ColumnMeta">
+    <Position X="8.5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAABAQBIQABAAAAAAACAGEIABEAEACAAAAAEA=</HashCode>
+      <FileName>Entity\ColumnMeta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nature.MetaData.Entity.ColumnWebMeta">
+    <Position X="8.5" Y="4.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABQAAIAEAEAAAAAAAAAACAAAAAAEAAAAAgAIIAA=</HashCode>
+      <FileName>Entity\ColumnWebMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Entity.MetaControl.ButtonListMeta">
+    <Position X="4.25" Y="8.75" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAQQAAAAAAAEQAAQAAAIAAAGAAAwAAAgAAAAAAQAA=</HashCode>
+      <FileName>Entity\MetaControl\ButtonListMeta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Nature.MetaData.ControlExt">
+    <Position X="5.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExpand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.BaseListExpand">
+    <Position X="3.75" Y="18" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAQAAAQAAAAEAEIBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\BaseListExpand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.BaseTextBoxExtend">
+    <Position X="6.75" Y="18" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAgAAAKAAAAAAAAQAAABAAAAAEAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\BaseTextBoxExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextChooseExpand">
+    <Position X="9.5" Y="21" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABACAAAQAAAAAAEAAADQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextChooseExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextUploadExtend">
+    <Position X="7" Y="21" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIACAQAAAAAAAAAAAABAAASAAAA=</HashCode>
+      <FileName>ControlExtend\TextUploadExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.UniteListExtend">
+    <Position X="2.5" Y="21.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAEABBAAAAAAAAgAAAQAAAAAAAAAAAgAAAABAAAAAAA=</HashCode>
+      <FileName>ControlExtend\UniteListExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextBoxTimeExtend" Collapsed="true">
+    <Position X="5.25" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextBoxTimeExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextBoxPassExtend" Collapsed="true">
+    <Position X="12" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextBoxPassExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextBoxMulExtend" Collapsed="true">
+    <Position X="14.25" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextBoxMulExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

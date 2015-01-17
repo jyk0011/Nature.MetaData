@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Nature.MetaData.ManagerMeta.ManagerFormMeta">
+    <Position X="6.75" Y="11" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerMeta\ManagerFormMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ManagerMeta.ManagerGridMeta">
+    <Position X="11.5" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerMeta\ManagerGridMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ManagerMeta.ManagerFindMeta">
+    <Position X="11.5" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAAA=</HashCode>
+      <FileName>ManagerMeta\ManagerFindMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ManagerMeta.ManagerMeta">
+    <Position X="9" Y="5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AEQAQEAAAAAAAAQAAACAAAAAAAAAAAAEgQgACAAAgAA=</HashCode>
+      <FileName>ManagerMeta\ManagerMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ManagerMeta.ManagerModule">
+    <Position X="6.75" Y="13" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEAAgAAAAAAAA=</HashCode>
+      <FileName>ManagerMeta\ManagerModule.cs</FileName>
+      <NewMemberFileName>ManagerMeta\ManagerButtonListMeta.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ManagerMeta.ManagerPageViewMeta">
+    <Position X="11.5" Y="9" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerMeta\ManagerPageViewMeta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Manager.ManagerData">
+    <Position X="11.5" Y="15.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAIIAAAAAAAAAAAAAIQABABABAAAAAQAAAAAQA=</HashCode>
+      <FileName>Manager\ManagerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.Manager.SqlFactory">
+    <Position X="6.75" Y="15.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAABIAAAAAAAAAAAAIIDAAAAAAQAAAAAAAAAAEA=</HashCode>
+      <FileName>Manager\SQLFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="9.75" />
+</ClassDiagram>

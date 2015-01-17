@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nature.MetaData.ControlExtend.TextBoxTimeExtend">
+    <Position X="2.5" Y="5.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextBoxTimeExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.BaseListExpand">
+    <Position X="4" Y="8.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAQAAAQAAAAEAEIBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\BaseListExpand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.DropDownListExpand">
+    <Position X="1" Y="12.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ControlExtend\DropDownListExpand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.UniteListExtend">
+    <Position X="3" Y="12.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAEABBAAAAAAAAgAAAQAAAAAAAAAAAgAAAABAAAAAAA=</HashCode>
+      <FileName>ControlExtend\UniteListExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextUploadExtend">
+    <Position X="8.5" Y="5.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIACAQAAAAAAAAAAAABAAASAAAA=</HashCode>
+      <FileName>ControlExtend\TextUploadExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextChooseExpand">
+    <Position X="0.5" Y="5.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABACAAAQAAAAAAEAAADQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextChooseExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.BaseTextBoxExtend">
+    <Position X="4.25" Y="2.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAgAAAKAAAAAAAAQAAABAAAAAEAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\BaseTextBoxExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextBoxPassExtend">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextBoxPassExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.TextBoxMulExtend">
+    <Position X="6.25" Y="5.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExtend\TextBoxMulExtend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExtend.GroupListExpand">
+    <Position X="7" Y="12.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEABAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAACABAA=</HashCode>
+      <FileName>ControlExtend\GroupListExpand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nature.MetaData.ControlExt">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlExpand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>
